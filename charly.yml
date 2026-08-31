@@ -1,7 +1,7 @@
 version: 2026.232.0520
 cloud-init:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0100
         description: |
             Cloud-init NoCloud provisioning for first-boot VM/cloud instance bootstrap.
             Installs cloud-init and the growpart partition-resize utility, then
@@ -11,7 +11,7 @@ cloud-init:
             the growpart binary, and the NoCloud drop-in are all baked into the
             image and independently checkable.
         require:
-            - '@github.com/opencharly/pod-sshd:v2026.237.558'
+            - '@github.com/opencharly/pod-sshd:v2026.239.1637'
         package:
             - cloud-init
         distro:
